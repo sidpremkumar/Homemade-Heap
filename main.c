@@ -26,6 +26,7 @@ typedef void *any_t;
 #define ERROR_ALIGMENT      0x4
 #define ERROR_NOT_FF        0x8
 
+#define HELLO 
 #define ALIGN 8
 
 #define rdtsc(x)      __asm__ __volatile__("rdtsc \n\t" : "=A" (*(x)))
